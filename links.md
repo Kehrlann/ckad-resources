@@ -3,3 +3,4 @@
 1. [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 1. [Configure a Pod to Use a ConfigMap](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/)
 1. [Configure a Pod to Use a Secret](https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/)
+1. [Configure a Security Context for a Pod or Container](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
