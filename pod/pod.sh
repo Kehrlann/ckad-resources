@@ -1,0 +1,13 @@
+kubectl run my-pod \
+  --image=nginx \
+  --generator=run-pod/v1 \
+  --namespace=my-namespace \
+  --command \
+  --env=SOME_VARIABLE=some-value \
+  --labels=tier=frontend,env=prod \
+  --requests='cpu=100m,memory=256Mi' \
+  --limits='cpu=200m,memory=512Mi' \
+  --port 8080 \
+  --dry-run \
+  -o yaml \
+  -- /bin/sh -c 'sleep 3600'\
