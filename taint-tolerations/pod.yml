@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+spec:
+  containers:
+  - image: nginx
+    name: my-pod
+    tolerations:
+    - key: "example-key"
+      operator: "Equals" # or "Exists"
+      value: "some-value"
+      effect: "NoSchedule"
