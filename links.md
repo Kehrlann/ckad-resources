@@ -5,4 +5,4 @@
 1. [Configure a Pod to Use a Secret](https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/)
 1. [Configure a Security Context for a Pod or Container](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
 1. [Taints and Tolerations](https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/)
-1. [Assigning Pods to Nodes](https://kubernetes.io/docs/concepts/configuration/assign-pod-node/)
+1. [Configure Liveness, Readiness and Startup Probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)
