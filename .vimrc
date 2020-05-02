@@ -1,4 +1,8 @@
 set number
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set autoindent
 set history=1000
 
 " Search
@@ -7,12 +11,5 @@ set hlsearch
 set ignorecase
 set smartcase
 
-" Tabs
-set tabstop=2
-set shiftwidth=2
-set expandtab
-set autoindent
-
-" Wrapping
-set wrap
-set linebreak
+" Cursor stuff
+set cursorcolumn
